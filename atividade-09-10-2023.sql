@@ -313,4 +313,4 @@ INSERT INTO registros VALUES(298, '2023-11-09', 18.63, 48.55);
 INSERT INTO registros VALUES(299, '2023-11-09', 17.73, 38.07);
 INSERT INTO registros VALUES(300, '2023-11-09', 20.38, 44.17);
 
-SELECT data AS "DATA", TRUNCATE(AVG(temperatura), 2) AS "TEMP. MÉDIA", TRUNCATE(AVG(umidade), 2) AS "UMID. MÉDIA" FROM registros GROUP BY data ORDER BY AVG(temperatura) LIMIT 50;
+SELECT data AS "DATA", TRUNCATE(AVG(temperatura), 2) AS "TEMP. MEDIA", TRUNCATE(AVG(umidade), 2) AS "UMID. MEDIA" FROM registros GROUP BY data ORDER BY AVG(temperatura) LIMIT 50;
